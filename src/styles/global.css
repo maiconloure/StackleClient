@@ -1,0 +1,62 @@
+:root {
+    --primary-color-1: #caf0f8;
+    --primary-color-2: #ade8f4;
+    --primary-color-3: #90e0ef;
+    --primary-color-4: #48cae4;
+    --primary-color-5: #00b4d8;
+    --primary-color-6: #0096c7;
+    --primary-color-7: #0077b6;
+    --primary-color-8: #023e8a;
+    --primary-color-9: #03045e;
+
+    --secondary-color-1: #e70e02;
+    --secondary-color-2: #f42b03;
+    --secondary-color-3: #d84a05;
+    --secondary-color-4: #ec7505;
+    --secondary-color-5: #e89005;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: calc(10px + 2vmin);
+    overflow-x: hidden;
+}
+  
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Toastify__toast-body {
+    font-size: 1rem;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 10px;
+    background: #1E90FF	; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.2); 
+  }
+  
